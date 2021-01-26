@@ -8,7 +8,7 @@
     </b-nav>
   </div>
   <nav>
-    <img alt="Vue logo" src="./assets/logo.png"><br>
+    <img alt="Vue logo" src="./assets/group 11.png"><br>
     <ul>
       <li><router-link to="/">sida 1 </router-link></li>
       <li><router-link to="/page2">Yes or No</router-link></li>

@@ -17,7 +17,5 @@ export default {
   div{
   height: 100vh;
   }
-  p {
-  }
 </style>
 
