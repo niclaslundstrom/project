@@ -6,6 +6,7 @@ import "bootstrap-vue/dist/bootstrap-vue.css"
 import store from './store'
 import './main.scss'
 import { NavbarPlugin } from 'bootstrap-vue'
+import './registerServiceWorker'
 Vue.use(NavbarPlugin)
 
 Vue.config.productionTip = false

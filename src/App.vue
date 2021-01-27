@@ -8,11 +8,11 @@
     </b-nav>
   </div>
   <nav>
-    <img alt="Vue logo" src="./assets/group 11.png"><br>
-    <ul>
-      <li><router-link to="/">sida 1 </router-link></li>
-      <li><router-link to="/page2">Yes or No</router-link></li>
-      </ul>
+    <img alt="Rymd tupp" src="./assets/Group 11.png"><br>
+    <div id="page-nav">
+      <router-link to="/">sida 1 </router-link> |
+      <router-link to="/page2">Yes or No</router-link> 
+      </div>
   </nav>
   <router-view/>
 </div>
@@ -21,11 +21,17 @@
 
 
 <style lang="scss">
+img {
+  margin-bottom: 20px
+}
 ul {
   display: inline;
   justify-content:space-around;
   list-style-type:none;
   text-align: center;
+}
+#page-nav{
+   margin-bottom: 20px
 }
 #app {
   background-color:rgba(52, 68, 70, 0.548);

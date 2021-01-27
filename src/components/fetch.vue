@@ -32,7 +32,11 @@ export default {
 </script>
 
 <style scoped>
-  div{
-  height: 100vh;
-  }
+h1{
+  margin-top: 20px
+}
+div{
+background-color: rgb(188,210,208);
+height: 100vh;
+}
 </style>
